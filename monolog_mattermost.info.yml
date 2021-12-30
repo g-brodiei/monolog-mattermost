@@ -1,0 +1,7 @@
+name: 'Monolog Mattermost'
+type: module
+description: 'Mattermost handler for Drupal monolog.'
+core_version_requirement: ^8.8 || ^9
+package: 'Development'
+dependencies:
+  - drupal:monolog

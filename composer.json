@@ -1,0 +1,24 @@
+{
+    "name": "drupal/monolog_mattermost",
+    "description": "A mattermost handler for Drupal monolog.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/monolog_mattermost",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/monolog_mattermost",
+        "source": "http://cgit.drupalcode.org/monolog_mattermost"
+    },
+    "authors": [
+        {
+            "name": "Michael Chen",
+            "email": "michael.chen@hellosanta.com.tw"
+        }
+    ],
+    "require": {
+        "drupal/monolog": "~2.0",
+        "gnello/php-mattermost-driver": "~2.0"
+    }
+}

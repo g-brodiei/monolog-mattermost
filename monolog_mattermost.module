@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains monolog_mattermost.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function monolog_mattermost_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the monolog_mattermost module.
+    case 'help.page.monolog_mattermost':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('A mattermost handler for Drupal monolog.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
